@@ -75,4 +75,30 @@ Instal software berikut:
 ```bash
 git clone [URL_REPOSITORY_ANDA]
 cd stokcerdas-umkm
+```
 
+### 3. Setup Dependencies Backend
+```bash
+cd backend
+npm install
+```
+
+### 4. Konfigurasi Environment (.env)
+Buat file bernama .env di dalam folder backend/ (sejajar dengan package.json Anda) dan isi konfigurasi berikut:
+```bash
+# Ganti dengan Connection String MongoDB Atlas Anda
+MONGO_URI=mongodb+srv://<USER_ANDA>:<PASSWORD_ANDA>@cluster0.mongodb.net/stokcerdasdb?retryWrites=true&w=majority
+
+# Kunci rahasia untuk JWT (harus panjang dan acak)
+JWT_SECRET=rahasia-stokcerdas-umkm-456789-aman-sekali
+PORT=5000
+```
+
+### 5. Menjalankan Server
+#### 1. (Opsional) Instal nodemon secara global untuk automatic restart: npm install -g nodemon
+#### 2. Jalankan server dari folder backend/:
+```bash
+nodemon server.js
+# atau jika nodemon tidak terinstal global
+# node server.js
+```
