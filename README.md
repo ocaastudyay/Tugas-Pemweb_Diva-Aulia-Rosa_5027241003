@@ -1,6 +1,6 @@
 # Tugas-Pemweb_Diva-Aulia-Rosa_5027241003
 
-# 💰 StokCerdas UMKM  
+# 💰 JURNAL STORE (Pencatat Stok dan Kasir Cerdas UMKM)
 _Aplikasi Manajemen Stok Modern untuk Bisnis UMKM_
 
 StokCerdas UMKM adalah aplikasi manajemen stok berbasis **MERN Stack** yang dirancang khusus untuk membantu Usaha Mikro, Kecil, dan Menengah (UMKM) dalam mengelola inventaris secara modern, cepat, dan aman.  
