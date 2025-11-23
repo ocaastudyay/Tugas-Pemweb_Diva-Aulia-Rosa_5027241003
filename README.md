@@ -69,3 +69,10 @@ Instal software berikut:
 - MongoDB Atlas / MongoDB Lokal
 
 ---
+
+### 2. Kloning Repositori
+
+```bash
+git clone [URL_REPOSITORY_ANDA]
+cd stokcerdas-umkm
+
