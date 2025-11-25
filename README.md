@@ -99,6 +99,27 @@ PORT=5000
 #### 2. Jalankan server dari folder backend/:
 ```bash
 nodemon server.js
-# atau jika nodemon tidak terinstal global
-# node server.js
 ```
+#### 3. Jalankan server dari folder frontend/:
+```bash
+npm run dev
+```
+
+## DOKUMENTASI WEB
+### Tampilan Daftar
+<img width="1919" height="938" alt="Screenshot 2025-11-25 181712" src="https://github.com/user-attachments/assets/4bba6f0d-8ceb-447a-bc24-2630181798dc" />
+### Tampilan Login
+<img width="1919" height="942" alt="Screenshot 2025-11-25 181741" src="https://github.com/user-attachments/assets/8cd78217-aa44-49ee-b1bd-f6f94da239a6" />
+### Tampilan Dashboard
+<img width="1919" height="943" alt="Screenshot 2025-11-25 181823" src="https://github.com/user-attachments/assets/24f8f9d9-3855-49ef-893f-77d1913eeae4" />
+### Tampilan Tambah
+<img width="1919" height="944" alt="Screenshot 2025-11-25 181836" src="https://github.com/user-attachments/assets/46711b09-a4c1-4dd2-8639-f861dc2c6c14" />
+### Tampilan Edit
+<img width="1919" height="936" alt="Screenshot 2025-11-25 181850" src="https://github.com/user-attachments/assets/5faa3423-9583-4acc-8221-09551f20b749" />
+### Tampilan Hapus
+<img width="1919" height="938" alt="Screenshot 2025-11-25 181903" src="https://github.com/user-attachments/assets/84fcde12-047f-4b76-8043-0b4d002a955a" />
+<img width="1915" height="939" alt="Screenshot 2025-11-25 181914" src="https://github.com/user-attachments/assets/313a7ed4-860a-4890-b28b-671a52366043" />
+### Tampilan MongoDB
+<img width="1920" height="1080" alt="Screenshot 2025-11-25 182506" src="https://github.com/user-attachments/assets/3fe56072-0be4-4cb9-a0d6-13cda8f63787" />
+<img width="1920" height="1080" alt="Screenshot 2025-11-25 182515" src="https://github.com/user-attachments/assets/5c74b492-4d5f-4ece-9401-bea112e6a8fa" />
+
