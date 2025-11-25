@@ -1,0 +1,42 @@
+/* Definisikan variabel warna untuk Pink Kontras */
+:root {
+  --color-primary: #ff69b4; /* Hot Pink (Tombol Aksi Utama) */
+  --color-secondary: #c71585; /* Medium Violet Red (Judul/Aksen) */
+  --color-background: #ffffff; /* White (Latar Belakang Form/Tabel) */
+  --color-text-dark: #222222; /* Dark Grey (Teks) */
+  --color-text-light: #ffffff; /* White (Teks Tombol) */
+  --color-accent-success: #28a745; /* Green */
+  --color-accent-delete: #dc3545; /* Red (Logout/Hapus) */
+  --color-accent-edit: #ffc107; /* Yellow/Orange (Edit) */
+  --color-link: var(--color-secondary); 
+}
+
+/* Reset dan Gaya Dasar */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa; /* Off-White lembut (Background Layar) */
+  color: var(--color-text-dark); /* Teks Utama Hitam */
+  min-height: 100vh;
+}
+
+h1, h2, h3 {
+  color: var(--color-secondary); 
+}
+
+/* Atur gaya untuk container utama App */
+.App {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Link Style */
+a {
+  color: var(--color-link);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
